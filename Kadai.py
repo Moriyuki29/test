@@ -1,6 +1,5 @@
 def quick_sort(data):
 
-    #分割できなくなる(リスト要素が1以下)であれば，そのままデータを返す(並べ替えの必要なし)
     if len(data) <= 1:
         return data
 
